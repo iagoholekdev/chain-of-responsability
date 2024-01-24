@@ -1,0 +1,1 @@
+O Chain of Responsibility é um padrão comportamental que permite criar uma cadeia de manipuladores para processar uma solicitação de forma encadeada. No projeto, imaginei um sistema de consulta de livros onde diferentes classes são responsáveis por lidar com solicitações de diferentes gêneros.
