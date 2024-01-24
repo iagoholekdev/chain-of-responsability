@@ -8,12 +8,12 @@ import org.example.utils.responsability.StringHandler;
 public class BeatLiteratureBookHandler extends StringHandler {
 
     @Override
-    public void handleResponsability(String userInput) throws NoBooksForThisGenreException {
+    public void handleResponsibility(String userInput) throws NoBooksForThisGenreException {
         log(ErrorLevelEnum.INFO, "Stream of consciousness books", getClass().getSimpleName(), new Object(){}.getClass().getEnclosingMethod().getName());
         if (StringConsts.BEAT_LITERATURE_BOOK.equalsIgnoreCase(userInput)) {
             System.out.println(StringConsts.BOOKS_BEAT_LITERATURE);
         } else {
-            super.handleResponsability(userInput);
+            super.handleResponsibility(userInput);
         }
 
     }

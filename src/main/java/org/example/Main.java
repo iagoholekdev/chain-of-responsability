@@ -23,7 +23,7 @@ public class Main {
         System.out.println("What type of book genre do you like?");
         String genre = scanner.nextLine();
 
-        horrorHandler.handleResponsability(genre);
+        horrorHandler.handleResponsibility(genre);
     }
 
 }

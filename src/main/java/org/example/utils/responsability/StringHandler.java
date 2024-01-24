@@ -13,9 +13,9 @@ public abstract class StringHandler extends AbstractLogger implements Responsibi
     private ResponsibilityHandler<String> nextHandler;
 
     @Override
-    public void handleResponsability(String userInput) throws NoBooksForThisGenreException {
+    public void handleResponsibility(String userInput) throws NoBooksForThisGenreException {
         if (Objects.nonNull(this.nextHandler)) {
-            nextHandler.handleResponsability(userInput);
+            nextHandler.handleResponsibility(userInput);
         }
     }
 
